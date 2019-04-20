@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<th:block layout:insert="~{fragments/htmlhead}"/>
+
+<body>
+<div id="navigation" class="text-uppercase">
+<th:block layout:insert="~{fragments/navigation}"/>
+</div>
+
+
+</body>
+
+
+<th:block layout:insert="~{fragments/body_scripts}" />
+
+</html>
